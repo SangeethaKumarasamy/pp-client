@@ -1,0 +1,54 @@
+@media (max-width: 1200px) {
+    /* MAIN CONTAINER FOR MORE DETAILS OF THE APPLIACNT */
+    .moreDetailsCntr {
+      /* border: 3px solid black; */
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 10px;
+      height: 0px;
+      overflow-y: hidden;
+      transition: all 0.4s;
+    }
+  
+    .moreDetailsCntr > article {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  
+    .moreDetailsCntr > article:nth-of-type(2) {
+      align-items: center;
+    }
+  
+    .moreDetailsCntr > article p {
+      margin: 10px 0px;
+      font-size: 12px;
+    }
+  
+    /* PROFILE PICTURE */
+    .moreDetailsCntr > article img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+  
+    /* EDIT AND DELETE BUTTONS */
+    .moreDetailsCntr .buttonsCntr {
+      display: flex;
+      gap: 10px;
+    }
+  
+    .moreDetailsCntr .editBtn,
+    .moreDetailsCntr .deleteBtn {
+      width: 30px;
+      height: 22px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 580px) {
+    /* MAIN CONTAINER FOR MORE DETAILS OF THE APPLIACNT */
+    .moreDetailsCntr {
+      gap: 20px;
+    }
+  }

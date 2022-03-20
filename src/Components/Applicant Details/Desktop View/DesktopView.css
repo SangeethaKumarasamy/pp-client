@@ -1,0 +1,26 @@
+/* TABLE MAIN CONTAINER */
+.table_mainCntr {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+  }
+  
+  .table_mainCntr > div {
+    width: 80%;
+  }
+  
+  .table_mainCntr .editBtn,
+  .table_mainCntr .deleteBtn {
+    width: 70px;
+    height: 25px;
+  }
+  
+  .table_mainCntr .deleteBtn {
+    background-color: red;
+  }
+  
+  @media (max-width: 1200px) {
+    .table_mainCntr {
+      display: none;
+    }
+  }

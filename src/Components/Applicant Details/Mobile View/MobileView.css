@@ -1,0 +1,120 @@
+/* TABLE MAIN CONTAINER */
+.table_mainCntr_MV {
+    display: none;
+  }
+  
+  @media (max-width: 1200px) {
+    /* TABLE MAIN CONTAINER */
+    .table_mainCntr_MV {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .table_mainCntr_MV > article {
+      width: 80%;
+      background-color: whitesmoke;
+      border-radius: 10px;
+    }
+  
+    .table_mainCntr_MV > article > p {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 25px;
+      font-weight: bold;
+    }
+  
+    /* SEARCH CONTAINER */
+    .table_mainCntr_MV .searchCntr {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+  
+    .table_mainCntr_MV .searchCntr > div {
+      border: 1px solid black;
+      width: 60%;
+    }
+  
+    .table_mainCntr_MV .searchCntr button {
+      cursor: pointer;
+      width: 10%;
+    }
+  
+    .table_mainCntr_MV .searchCntr button > svg {
+      background-color: white;
+    }
+  
+    .table_mainCntr_MV .search {
+      border: none;
+      height: 39px;
+      font-size: 15px;
+      width: 85%;
+    }
+  
+    .table_mainCntr_MV .search:focus {
+      outline: none;
+    }
+  
+    /* APPLICANT DETAILS MAIN CONTAINER */
+    .table_mainCntr_MV .applicantDetailsCntr {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+  
+    /* EACH APPLICANT DETAIL BOX */
+    .table_mainCntr_MV .applicantDetailsCntr > div {
+      border: 1px solid black;
+      border-top: 3px solid black;
+      border-left: 3px solid black;
+      border-right: 3px solid black;
+      background-color: white;
+      width: 50%;
+      /* padding: 10px; */
+      font-weight: 500;
+    }
+  
+    .table_mainCntr_MV .MoreDetailsMainCntr:hover {
+      transform: scale(1.1);
+      border-bottom: 3px solid black;
+    }
+  
+    .table_mainCntr_MV .applicantDetailsCntr > div:nth-last-of-type(1) {
+      border-bottom: 3px solid black;
+    }
+  
+    .table_mainCntr_MV .applicantDetailsCntr > div > p {
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+  
+  @media (max-width: 870px) {
+    /* SEARCH CONTAINER */
+    .table_mainCntr_MV .searchCntr > div {
+      width: 80%;
+    }
+  
+    /* APPLICANT DETAILS CONTAINER */
+    .table_mainCntr_MV .applicantDetailsCntr > div {
+      width: 70%;
+    }
+  }
+  
+  @media (max-width: 580px) {
+    /* TABLE MAIN CONTAINER */
+    .table_mainCntr_MV > article {
+      width: 90%;
+    }
+    /* SEARCH CONTAINER */
+    .table_mainCntr_MV .searchCntr > div {
+      width: 95%;
+    }
+  
+    /* APPLICANT DETAILS CONTAINER */
+    .table_mainCntr_MV .applicantDetailsCntr > div {
+      width: 85%;
+    }
+  }
