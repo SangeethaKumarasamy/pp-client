@@ -79,7 +79,7 @@ export function Form({ editDetails, setFetchedDetails }) {
             <div className="applicant_img_cntr mobileView applicant_img_cntr_MV">
               <img
                 className="applicant_img"
-                src="https://avatars.githubusercontent.com/u/91084155?v=4"
+                src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-0.jpg"
                 alt="Profile"
               />
 
@@ -107,7 +107,7 @@ export function Form({ editDetails, setFetchedDetails }) {
               <div>
                 <img
                   className="applicant_img"
-                  src="https://avatars.githubusercontent.com/u/91084155?v=4"
+                  src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-0.jpg"
                   alt="Profile"
                 />
 
@@ -260,14 +260,14 @@ export function Form({ editDetails, setFetchedDetails }) {
                 >
                   <input
                     type="checkbox"
-                    id="pune"
+                    id="New Delhi"
                     name="prefLocation"
-                    value="Pune"
-                    checked={SetCheckboxValue("Pune") === "Pune"}
+                    value="New Delhi"
+                    checked={SetCheckboxValue("New Delhi") === "New Delhi"}
                     onChange={handleChange}
                     onBlur={handleBlur}
                   />
-                  <label htmlFor="pune">Pune</label>
+                  <label htmlFor="New Delhi">New Delhi</label>
                 </div>
               </div>
             </div>
