@@ -35,7 +35,7 @@ export function MoreDetails({
       <article>
         <div>
           <img
-            src="https://avatars.githubusercontent.com/u/91084155?v=4"
+            src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-0.jpg"
             alt="Profile"
           />
         </div>

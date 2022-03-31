@@ -80,7 +80,7 @@ export function Form({ editDetails, setFetchedDetails }) {
               <img
                 className="applicant_img"
                 src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-0.jpg"
-                alt="Profile"
+                
               />
 
               <input type="file" />
@@ -108,7 +108,7 @@ export function Form({ editDetails, setFetchedDetails }) {
                 <img
                   className="applicant_img"
                   src="https://icon-library.com/images/no-user-image-icon/no-user-image-icon-0.jpg"
-                  alt="Profile"
+                  
                 />
 
                 <input type="file" />
